@@ -221,20 +221,6 @@ void function2(time_now *now)//功能2：计算现在的日期与用户输入的
     else              {ans=ans2-ans1;}
     printf("there are %lld days between now ande the date you writed!\n",ans);
 }
-void function3()
-{
-    time_now wanted;
-    printf("please input the date:");
-    scanf("%d %d %d",&wanted.da_year,&wanted.da_mon,&wanted.da_day);
-    menu();
-    char choice;
-    choice =putin();
-    switch (choice)
-    {
-        case '1': function1(&wanted); break;
-        case '2': function2(&wanted); break;
-    }
-}
 int main()
 {
     char choice;
@@ -247,7 +233,6 @@ int main()
     {
         case '1': function1(&Time); break;
         case '2': function2(&Time); break;
-        case '3': function3();break;
     }
     system("pause");
 }
