@@ -1,0 +1,5 @@
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30136 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /MT /GS- /Fd"Debug\vc142.pdb" /TC /analyze- ui.c
+  ui.c
+  snake_game.vcxproj -> C:\Users\HP\repos\intro\examples\C\06_snake_game\Debug\snake_game.exe
